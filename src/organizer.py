@@ -5,10 +5,10 @@ import sys
 # Diccionario con extensiones comunes
 FILE_TYPES = {
     "Fotos": [".jpg", ".jpeg", ".png", ".gif", ".heic", ".webp"],
-    "Documentos": [".pdf", ".docx", ".txt"],
+    "Documentos": [".pdf", ".docx", ".txt", ".md", ".csv", ".xls", ".xlsx", ".ppt", ".pptx", ".doc", ".docm", ".dot", ".dotx", ".dotm", ".odt", ".ott", ".rtf", ".pages", ".numbers", ".key"],
     "Musica": [".mp3", ".wav", ".aac", ".flac", ".m4a", ".ogg", ".wma"],
     "Videos": [".mp4", ".mov", ".mkv", ".avi", ".wmv", ".flv", ".m4v", ".webm"],
-    "Code": [".py", ".js", ".java", ".ts", "cpp", "cs", "css", "html", "js", "json", "py", "rb", "sql", "xml", "yaml"],
+    "Code": [".py", ".js", ".java", ".ts", ".cpp", ".cs", ".css", ".html", ".json", ".rb", ".go", ".rs", ".sql", ".xml", ".yaml"],
     "Comprimidos": [".zip", ".rar", ".7z"],
 }
 
